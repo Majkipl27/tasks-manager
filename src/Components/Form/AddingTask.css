@@ -1,0 +1,84 @@
+input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+button{
+    width: 80%;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 3px solid white;
+    transition: 200ms all linear;
+    cursor: pointer;
+    color: white;
+}
+
+form > button:hover{
+    background-color: white;
+    color: black;
+}
+
+::placeholder{
+    color: white;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.buttons > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.buttons>input{
+    margin: 0;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+    appearance: none;
+    background-color: white;
+}
+
+.buttons >input:checked{
+    background-image: url(../../icons/check.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,26 @@
+.task{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border:2px solid white;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title{
+    padding-right: 15px;
+}
+
+.date{
+    padding-left: 15px;
+}
+
+.completed {
+    background-color: #9f9;
+}

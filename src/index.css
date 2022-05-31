@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #c2de6e;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  padding-inline-start: 0;
+}
