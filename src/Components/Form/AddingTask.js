@@ -39,7 +39,7 @@ const submitHandler = event =>{
         <h1>Task Manager</h1>
         <form onSubmit={submitHandler}>
           <input
-            placeholder="Write title here"
+            placeholder="Title"
             type="text"
             onChange={titleChangeHandler}
             value={enteredTitle}

@@ -11,6 +11,8 @@
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
+    transition: color 200ms linear;
+    transition: background-color 200ms linear;
 }
 
 .title{
@@ -23,4 +25,11 @@
 
 .completed {
     background-color: #9f9;
+    color: black;
+    transition: color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.completed button{
+    color: black;
 }

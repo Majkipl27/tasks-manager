@@ -73,7 +73,6 @@ form > button:hover{
     width: 30px;
     height: 30px;
     appearance: none;
-    background-color: white;
 }
 
 .buttons >input:checked{
@@ -81,4 +80,6 @@ form > button:hover{
     background-position: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    transition: border-color 200ms linear;
+    border-color: black;
 }

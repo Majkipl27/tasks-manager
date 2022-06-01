@@ -4,7 +4,7 @@
     width: 90%;
     max-width: 600px;
     min-height: 150px;
-    background-color: #9B2335;
+    background-color: #34568B;
     margin-top: 100px;
     border-radius: 25px;
     font-family: 'Source Code Pro', monospace !important;
@@ -15,4 +15,5 @@
     padding-top: 25px;
     padding-bottom: 25px;
     color: white;
+    box-shadow: 15px 22px 25px -24px rgba(66, 68, 90, 1);
 }
